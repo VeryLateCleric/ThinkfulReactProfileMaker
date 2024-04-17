@@ -5,7 +5,7 @@ function ActivityList() {
   return (
     <div className="activity-list">
       {activities.map((activity, index) => (
-        <Activity key={} time={} description={} />
+        <Activity key={index} time={activity.time} description={activity.description} />
       ))}
     </div>
   );
