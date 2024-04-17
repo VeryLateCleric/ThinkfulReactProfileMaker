@@ -1,5 +1,5 @@
 import React from "react";
-import "./Header.css";
+import "../__mocks__/Header.css";
 
 function Header({ name, imageSrc, birthday }) {
   return (
