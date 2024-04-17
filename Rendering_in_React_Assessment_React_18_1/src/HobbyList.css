@@ -1,0 +1,16 @@
+.hobby-list {
+    margin-top: 20px;
+  }
+  
+  .hobby-list h4 {
+    margin-bottom: 10px;
+  }
+  
+  .hobby-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .hobby-list li {
+    margin-bottom: 5px;
+  }
