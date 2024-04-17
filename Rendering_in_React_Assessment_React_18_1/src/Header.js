@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 
-function Header() {
+function Header({ name, imageSrc, birthday }) {
   return (
     <div>
       <img src={imageSrc} alt="Profile" className="profile-picture" />

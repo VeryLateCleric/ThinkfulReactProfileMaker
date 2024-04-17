@@ -1,7 +1,7 @@
 import React from "react";
 import "./Activity.css";
 
-function Activity() {
+function Activity(time, description) {
   return (
     <div className="activity">
       <p className="time">{time}</p>

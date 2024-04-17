@@ -1,7 +1,8 @@
 import React from "react";
+import Activity from "./Activity";
 import "./ActivityList.css";
 
-function ActivityList() {
+function ActivityList({ activities }) {
   return (
     <div className="activity-list">
       {activities.map((activity, index) => (
